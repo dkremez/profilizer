@@ -1,3 +1,6 @@
+![Ruby](https://github.com/dkremez/profilizer/workflows/Ruby/badge.svg?branch=master)
+![Rubocop](https://github.com/dkremez/profilizer/workflows/Rubocop/badge.svg?branch=master)
+
 # Profilizer
 
 Profilizer is a Ruby gem for easy profile of methods. It helps you to track how fast you methods are, how much memory the consume and how much objects were allocated. 
