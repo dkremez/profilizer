@@ -11,8 +11,8 @@ The normal hand on profiling in Ruby doesn't require any gems and looks like thi
 def profile
   start = Time.now
   yield if block_given?
-  end = Time.now
-  puts "Duration: #{end - start}"
+  finish = Time.now
+  puts "Duration: #{finish - start}"
 end
 ```
 
