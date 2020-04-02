@@ -16,9 +16,7 @@ def profile
 end
 ```
 
-However, it is not handy in case you want more options of you just need to repeat this code many time in different application.
-
-Here is what is gem propose instead:
+However, it is not handy in case you want more options. What if you can do the following?
 
 ```ruby
 class A
@@ -87,8 +85,8 @@ Memory usage: 2.05 MB
 
 ### Configuration
 
-What if you only want to profile time or just used memory or objects allocations only.
-Here is how you could config
+What if you only want to profile time, used memory, or objects allocations only.
+Here is how you could config it:
 
 ```ruby
 class A
