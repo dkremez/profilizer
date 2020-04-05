@@ -7,6 +7,7 @@
 /spec/reports/
 /tmp/
 /.gem/
+/.vscode/
 
 # rspec failure tracking
 .rspec_status

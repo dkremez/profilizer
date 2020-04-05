@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'pry'
+# require 'pry'
 require 'ruby2_keywords'
 
 require 'profilizer/profiler'
